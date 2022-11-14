@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: rgb(8, 8, 8);
+    color: #57bdec;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-image: url(logo.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #a5147a;
+    color: #2ae7de
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: background-color 2s linear;
+}
+
+nav {
+    float: left;
+    width: 160px;
+    padding: 1.5em;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+nav a:link {
+    color: #060707;
+}
+
+nav a:visited {
+    color: #3f4444;
+}
+
+nav a:hover {
+    color: #ec61c2;
+    background-color: #148fa5;
+}
+
+main {
+    min-height: 100vh;
+    background-color: black;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #57bdec;
+}
+
+dt {
+    color: #7094e7;
+}
+
+.resort {
+    color: #1976D2;
+}
+
+footer {
+    margin-top: auto;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+}
+
+h3 {
+    color: #a5147a;
+}
+
+h4 {
+    color: #a5147a;
+}
+
+#wrapper {
+    background-color: #070707;
+    background-image: linear-gradient(to bottom, #2ae7de, #d317d3);
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#productTable {
+    clear: both;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+table {
+    border: 2px solid #3399cc;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0.5em;
+    border: 2px solid #3399cc;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d317d3;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#contact {
+    font-size: 90%;
+}
